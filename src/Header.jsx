@@ -6,7 +6,18 @@ function Header() {
   return (
     <header className="header container">
       <div className="logo">
-        <div className="logo-icon">Sil</div>
+        <div className="logo-icon-svg">
+          <svg width="90" height="90" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            {/* Círculo incompleto */}
+            <path d="M 20 80 A 42 42 0 1 1 80 80" fill="none" stroke="var(--primary)" strokeWidth="1.5" strokeLinecap="round"/>
+            {/* Linha fluida representando energia/corpo */}
+            <path d="M 45 90 C 35 65, 30 40, 50 20 C 65 5, 85 25, 60 45 C 45 60, 45 75, 55 90" fill="none" stroke="var(--primary)" strokeWidth="1" strokeLinecap="round"/>
+            {/* Ponto de luz / mente */}
+            <circle cx="50" cy="14" r="2.5" fill="var(--primary)"/>
+            {/* Texto Sil */}
+            <text x="50" y="70" fontFamily="'Great Vibes', cursive" fontSize="48" fill="var(--primary)" textAnchor="middle">Sil</text>
+          </svg>
+        </div>
         <div className="logo-text">Sil Terapias Integrativas</div>
         <div className="logo-subtext">Energia & Estética</div>
       </div>

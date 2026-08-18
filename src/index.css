@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Great+Vibes&display=swap');
 
 :root {
   --primary: #cba83b; /* Gold/Yellow */
@@ -53,19 +53,11 @@ ul {
   gap: 5px;
 }
 
-.logo-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 1px solid var(--primary);
+.logo-icon-svg {
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: var(--primary);
-  font-size: 24px;
-  font-weight: 300;
-  font-style: italic;
-  font-family: serif;
+  align-items: center;
+  margin-bottom: -10px; /* puxar o texto um pouco pra cima */
 }
 
 .logo-text {
@@ -254,10 +246,9 @@ ul {
     justify-content: center;
   }
 
-  .logo-icon {
-    width: 75px;
-    height: 75px;
-    font-size: 30px;
+  .logo-icon-svg svg {
+    width: 80px;
+    height: 80px;
   }
 
   .logo-text {
