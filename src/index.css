@@ -53,15 +53,15 @@ ul {
   gap: 5px;
 }
 
-.logo-icon-svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -10px; /* puxar o texto um pouco pra cima */
+.logo-image {
+  width: 120px; 
+  height: auto;
+  margin-bottom: -10px; 
+  mix-blend-mode: multiply; 
 }
 
 .logo-text {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   color: var(--primary);
   letter-spacing: 2px;
@@ -69,7 +69,7 @@ ul {
   text-transform: uppercase;
 }
 .logo-subtext {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--primary);
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -430,13 +430,12 @@ ul {
     justify-content: center;
   }
 
-  .logo-icon-svg svg {
-    width: 80px;
-    height: 80px;
+  .logo-image {
+    width: 105px;
   }
 
   .logo-text {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .mobile-menu-btn {
