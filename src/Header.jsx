@@ -6,9 +6,11 @@ function Header() {
   return (
     <header className="header container">
       <div className="logo">
-        <img src="/image/Logo_transparent.png" alt="Logo Sil" className="logo-image" />
-        <div className="logo-text">Terapias Integrativas</div>
-        <div className="logo-subtext">Energia & Estética</div>
+        <img src="/image/Logo_cropped.png" alt="Logo Sil" className="logo-image" />
+        <div className="logo-name">SIL OLIVEIRA</div>
+        <div className="logo-name-sub">ENERGIA & ESTÉTICA</div>
+        <div className="logo-divider"></div>
+        <div className="logo-text">TERAPIAS INTEGRATIVAS</div>
       </div>
       
       <button className="mobile-menu-btn" onClick={() => setIsMenuOpen(!isMenuOpen)}>

@@ -54,10 +54,33 @@ ul {
 }
 
 .logo-image {
-  width: 120px; 
+  width: 140px; 
   height: auto;
-  margin-bottom: -10px; 
+  margin-bottom: 5px; 
   mix-blend-mode: multiply; 
+}
+
+.logo-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7a631c; /* Dourado mais escuro/sólido para o nome */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.logo-name-sub {
+  font-size: 10px;
+  color: #7a631c;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.logo-divider {
+  width: 40px;
+  height: 1px;
+  background-color: var(--primary);
+  margin: 5px 0 10px 0;
 }
 
 .logo-text {
