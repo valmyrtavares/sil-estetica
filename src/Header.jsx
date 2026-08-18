@@ -18,7 +18,7 @@ function Header() {
             <text x="50" y="70" fontFamily="'Great Vibes', cursive" fontSize="48" fill="var(--primary)" textAnchor="middle">Sil</text>
           </svg>
         </div>
-        <div className="logo-text">Sil Terapias Integrativas</div>
+        <div className="logo-text">Terapias Integrativas</div>
         <div className="logo-subtext">Energia & Estética</div>
       </div>
       
