@@ -33,9 +33,9 @@ ul {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 /* Header */
@@ -92,7 +92,7 @@ ul {
 .nav-links a {
   color: var(--text-dark);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   transition: color 0.3s ease;
 }
 
@@ -104,15 +104,15 @@ ul {
 .btn-primary {
   background-color: var(--primary);
   color: white;
-  padding: 12px 24px;
+  padding: 14px 28px;
   border-radius: 30px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(203, 168, 59, 0.3);
 }
@@ -127,10 +127,10 @@ ul {
   background-color: rgba(220, 184, 65, 0.6);
   backdrop-filter: blur(5px);
   color: var(--text-dark);
-  padding: 15px 30px;
+  padding: 18px 36px;
   border-radius: 8px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   position: absolute;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
@@ -158,20 +158,23 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 0 100px;
-  gap: 50px;
+  padding: 0 0 80px;
+  min-height: calc(100vh - 120px);
+  gap: 60px;
   position: relative;
   overflow: hidden;
 }
 
 .hero-content {
   flex: 1;
-  max-width: 500px;
+  max-width: 600px;
+  align-self: flex-start;
+  margin-top: 40px;
 }
 
 .hero-title {
-  font-size: 52px;
-  line-height: 1.1;
+  font-size: 42px;
+  line-height: 1.2;
   color: var(--text-dark);
   font-weight: 300;
   margin-bottom: 24px;
@@ -183,7 +186,7 @@ ul {
 }
 
 .hero-subtitle {
-  font-size: 18px;
+  font-size: 26px;
   color: var(--text-light);
   line-height: 1.6;
   margin-bottom: 40px;
